@@ -17,7 +17,7 @@ export default class Header extends React.Component {
                     <div className="header__right">
                         <a href="tel:803005000" className="header__phone">
                             <img src={phone} alt="Трубка телефона" className="header__phone_icon"/>
-                            <span className="header__phone_number">80300 5000</span><Phone Phone ={803005000} Plus={1}/>
+                            <span className="header__phone_number"><Phone Phone={803005000} Plus={1}/></span>
                         </a>
                         <nav className="header__nav">
                             <ul className="header__menu">

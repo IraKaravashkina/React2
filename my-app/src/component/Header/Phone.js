@@ -25,7 +25,7 @@ export default class Phone extends Component {
     render() {
         const {newPhone} = this.state;
         return (
-            <h2> className={newPhone}</h2>
+            <h2>{newPhone}</h2>
 
         );
     }
